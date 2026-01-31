@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+body{
+    background: white;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.overall{
+     background: whitesmoke;
+     margin: 30px;
+     padding: 20px;
+     border-radius: 7px;
+}
+h1{
+    text-align: center;
+    color: green;
+    font-size: 30px;
+    padding: 20px;
+    font-style: italic;
+}
+.question{
+    margin-left: 10px;
+    font-size: 20px;
+    padding-bottom: 10px;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.leftButton{
+ background: green;
+ color: black;
+ padding: 10px;
+ margin-top: 12px;
+ border-radius: 20px;
+ cursor: pointer;
+ border: none;
+}
+.rightButton{
+background: green;
+ color: black;
+ padding: 15px;
+ margin-top: 12px;
+ border-radius: 20px;
+ cursor: pointer;
+ border: none;
+}
+.leftButton:hover,
+.rightButton:hover{
+    background-color: greenyellow;
+    color: blue;
+    transition-duration: 0.3s;
+  transition: background-color 0.3s ease;
+
+}
+.inputLabel {
+  display: block;
+  
+  padding-top: 5px;
+  border-radius: 6px;
+}
+.inputLabel {
+  transition: background-color 0.3s ease;
+}
+:root {
+  --bg-color: #000;
+  --card-color: #1e1e1e;
+  --text-color: #ffffff;
+  --btn-color: #5a5a5a;
+}
+
+body.light {
+  --bg-color: #f4f4f4;
+  --card-color: #ffffff;
+  --text-color: #000;
+  --btn-color: #e0e0e0;
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.overall {
+  background: var(--card-color);
+  transition: background 0.3s ease;
+}
+
+button {
+  background: var(--btn-color);
+  color: var(--text-color);
+}
+footer {
+  background: var(--bg-color);
+  color: var(--text-color);
+  transition: background 0.3s ease, color 0.3s ease;
+}
+.toggle{
+  padding: 7px;
+}
+hr{
+  margin-bottom:
+    15px;
+  }
+  .setup{
+    margin-top: 13px;
+  }
